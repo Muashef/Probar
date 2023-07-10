@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ::selection {
+    @apply bg-[#FFF1DA];
+  }
+  
+  .nav-item {
+    font-family: 'Lato', sans-serif;
+    @apply font-medium text-[#D0D6DB] transition-all text-[1.125rem];
+  }
+  
+  .font-g-sans {
+    font-family: 'Lato', sans-serif;
+  }
+  .font-g-sans-medium {
+    font-family: 'Lato', sans-serif;
+    @apply font-medium;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lato', sans-serif;
+    @apply text-primary;
+    font-weight: bold;
+  }
+  
+  h1 span {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .font-h1 {
+    @apply text-[84px] leading-[89px] tracking-[-0.04em];
+  }
+  
+  h1 {
+    @apply text-[55px] leading-[59px] text-center md:text-left md:text-[84px] md:leading-[89px] tracking-[-0.04em];
+  }
+  
+  h2 {
+    @apply text-[40px] md:text-[50px];
+  }
+  
