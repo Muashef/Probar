@@ -7,7 +7,7 @@ const linkArray = ["Our Story", "Cohorts", "Contact Us"]
 const Navbar = () => {
   return (
     <nav className="w-full p-4 py-3 relative bg-[#040A0F]">
-      <div className="max-w-6xl xl:max-w-8xl flex items-center justify-between mx-auto">
+      <div className="px-14 flex items-center justify-between mx-auto">
         {/* <Link href='#'> */}
           <img src={logo} width={150} height={30} alt="Probar" />
         {/* </Link> */}

@@ -52,3 +52,15 @@
     @apply text-[40px] md:text-[50px];
   }
   
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.5em; /* Adjust the width as needed */
+  }
+  
+  
+  
+  
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change the scrollbar color on hover */
+  }
