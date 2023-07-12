@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import man1 from '../../assets/svg/man1.svg'
-import woman1 from '../../assets/svg/woman1.svg'
-import woman2 from '../../assets/svg/woman2.svg'
+import maryann from '../../assets/svg/maryann.svg'
+import olu from '../../assets/svg/olu.svg'
+import mariam from '../../assets/svg/mariam.svg'
+import fane from '../../assets/svg/fane.svg'
+import toyo from '../../assets/svg/toyo.svg'
+import amaka from '../../assets/svg/amaka.svg'
+import arrow from '../../assets/svg/arrow.svg';
 
 const Community = () => {
-    const images = [ man1, woman1, woman2 ]
+    const images = [ maryann, olu, mariam, fane, toyo, amaka ]
      const [ index, setIndex] = useState(0)
      const [ imgOpacity, setImgOpacity] = useState({0: 100, 1:  0, 2: 0})
      const nameArray = ['James', 'John', 'Janet']
@@ -68,26 +72,39 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-screen flex'>
-            <div className='w-[50%] h-full grid place-items-center'>
+        <div className='w-full h-screen flex px-14 pt-14'>
+            {/* <div className='w-[50%] h-full grid place-items-center'>
                 <button>Next</button>
-            </div>
-            <div className='w-[50%] h-full relative'>
-                {images.map((item, idx) => {
-                    return <img 
-                    className='w-full h-full object-cover absolute top-0 left-0' 
-                    src= {item}
-                    key={`img-${idx}`} 
-                    id={`img-${idx}`} 
-                    alt="" 
-                    style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
-                    />
-                } )}
-                <div className='absolute bottom-0 left-0 z-[4] py-5 px-8 text-xl bg-[#BEBCBC] text-black opacity-50 rounded-md'>
-                    <p>{nameArray[index]}</p>
-                    <span>{quotesArray[index]}</span>
+            </div> */}
+            <h3 className='text-black-500 text-2xl uppercase'>Our Story</h3>
+            <div className='w-full flex flex-col md:flex-row items-center gap-4'>
+                <div className='w-[419px] mx-auto'>
+                    <p className='text-xl text-[#0E2132]'>
+                    Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
+                    </p>
+                    <button className='flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#1A3753] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                        <span>Learn more about ProBar</span>
+                        <img src={arrow} alt="outward-arrow" />
+                    </button>
+                </div>
+                <div className='w-[50%] h-full relative'>
+                    {images.map((item, idx) => {
+                        return <img 
+                        className='w-full h-full object-cover absolute top-0 left-0' 
+                        src= {item}
+                        key={`img-${idx}`} 
+                        id={`img-${idx}`} 
+                        alt="" 
+                        style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
+                        />
+                    } )}
+                    {/* <div className='absolute bottom-0 left-0 z-[4] py-5 px-8 text-xl bg-[#BEBCBC] text-black opacity-50 rounded-md'>
+                        <p>{nameArray[index]}</p>
+                        <span>{quotesArray[index]}</span>
+                    </div> */}
                 </div>
             </div>
+            
         </div>
   )
 }
