@@ -72,8 +72,8 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-screen flex px-14 pt-14 bg-[#F0EEEB]'>
-            {/* <h3 className='text-black-500 text-2xl uppercase '>JOIN OUR Community</h3>    */}
+        <div className='w-full h-screen flex flex-col px-14 pt-14 pb-28 bg-[#F0EEEB]'>
+            <h3 className='text-black-500 text-2xl uppercase '>JOIN OUR Community</h3>   
             <div className='w-full h-full flex flex-col md:flex-row items-center justify-between gap-4'>
                 <div className='w-[529px] mx-auto'>
                     <p className='text-xl text-[#0E2132]'>
