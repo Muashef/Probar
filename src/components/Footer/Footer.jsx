@@ -17,16 +17,22 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center gap-6 mt-8'>
                     <div>
-                        <img src={twitter} alt="twitter" />
+                        <a target='_blank'  href="https://twitter.com/ProBar_Com">
+                            <img src={twitter} alt="twitter" />
+                        </a>
                     </div>
                     <div>
                         <img src={whatsapp} alt="whatsapp" />
                     </div>
                     <div>
-                        <img src={ig} alt="instagram" />
+                        <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
+                            <img src={ig} alt="instagram" />
+                        </a>
                     </div>
                     <div>
-                        <img src={linkdin} alt="linkedin" />
+                        <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
+                            <img src={linkdin} alt="linkedin" />
+                        </a>
                     </div>
                 </div>
             </div>

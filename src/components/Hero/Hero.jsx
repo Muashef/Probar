@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className='w-full h-screen'>
-        <div className=' flex '>
+        <div className=' flex'>
           <div>
             <img src={man1} className='object-cover'  alt="" />
           </div>
@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='w-full h-screen mx-auto pt-5 bg-[rgba(255, 238, 238, 1), rgba(221, 239, 187, 1)]'>
+        <div className='w-full h-full mx-auto py-15 bg-prey'>
           <h3 className='text-5xl text-black mx-auto text-center'>
             Kickstart Your Tech Career in 
             <span className='text-[#E52D27] ml-3'>Product Management</span>

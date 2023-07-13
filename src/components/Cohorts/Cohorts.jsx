@@ -18,7 +18,7 @@ const Cohorts = () => {
                 </p>
             </div>
             <div className='w-full flex gap-10 overflow-x-scroll custom-scrollbar mt-10'>
-                <div className='w-[577px] flex-shrink-0 bg-[#ECE9E6] border border-[#2B34B3] p-5'>
+                <div className='w-[577px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-5'>
                     <p className='text-[#AF0001] text-lg mt-2 text-center'>Just Concluded Cohort</p>
                     <div className='mt-3'>
                     <img src={Alpha} alt="" />
@@ -31,7 +31,7 @@ const Cohorts = () => {
                         <img src={blueArrow} alt="outward-arrow" />
                     </button>
                 </div>
-                <div className='w-[577px] flex-shrink-0 bg-[#ECE9E6] border border-[#2B34B3] p-5'>
+                <div className='w-[577px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-5'>
                 <p className='text-[#0A6172] text-lg mt-2 text-center'>Current Chort</p>
                 <div className='mt-3'>
                 <img src={Gamma} alt="" />
@@ -44,7 +44,7 @@ const Cohorts = () => {
                     <img src={gArrow} alt="outward-arrow" />
                 </button>
                 </div>
-                <div className='w-[577px] bg-white flex-shrink-0 border border-[#2B34B3] p-5 '>
+                <div className='w-[577px] bg-conic flex-shrink-0 border-4 border-[#FDFCFC] p-5 '>
                 <p className='text-[#000C40] text-lg mt-2 text-center'>Upcoming Cohort</p>
                 <div className='mt-3'>
                 <img src={upcoming} alt="" />

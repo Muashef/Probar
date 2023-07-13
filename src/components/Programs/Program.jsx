@@ -7,11 +7,15 @@ import cube from '../../assets/svg/cube.svg';
 
 const Program = () => {
   return (
-    <div className='w-full h-full px-14 pt-36 mx-auto'>
-        <h3 className='text-black-500 text-2xl uppercase'>Our Programs</h3>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-3 px-10'>
-            <div className='bg-white border border-[#2B34B3] p-5 w-[577px]'>
-                <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#2B33B2] font-bold rounded-full md:py-[11px] md:px-6'>
+    <div className='w-full h-full px-14 pt-52 mx-auto bg-[#F0EEEB]'>
+        <div className='relative'>
+            <span className='bg-[#EA323F] absolute top-[-100px] left-[50px] h-[207px] w-[212px] px-0 -z-100'></span>
+            <span className='absolute top-[-50px] left-[-60px] bg-[#1F4264] h-[207px] w-[158px] px-0 -z-100'></span>
+            <h3 className='text-white text-2xl uppercase absolute '>Our Programs</h3>
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 px-10'>
+            <div className='bg-white border border-[#2B34B3] p-5 w-[577px] z-10'>
+                <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-jelly font-bold rounded-full md:py-[11px] md:px-6'>
                     <span>Beginner's Certification</span>
                     <img src={strike} alt="" />
                 </button>
@@ -27,8 +31,8 @@ const Program = () => {
                 </button>
             </div>
 
-            <div className='bg-white border border-[#2B34B3] p-5 w-[577px]'>
-                <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#000C40] font-bold rounded-full md:py-[11px] md:px-6'>
+            <div className='bg-white border border-[#041143] p-5 w-[577px]'>
+                <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-bell font-bold rounded-full md:py-[11px] md:px-6'>
                     <span>Intermediate’s Certification</span>
                     <img src={strike} alt="" />
                 </button>

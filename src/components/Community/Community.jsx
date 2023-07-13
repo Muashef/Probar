@@ -5,7 +5,7 @@ import mariam from '../../assets/svg/mariam.svg'
 import fane from '../../assets/svg/fane.svg'
 import toyo from '../../assets/svg/toyo.svg'
 import amaka from '../../assets/svg/amaka.svg'
-import arrow from '../../assets/svg/arrow.svg';
+import wArrow from '../../assets/svg/wArrow.svg';
 
 const Community = () => {
     const images = [ maryann, olu, mariam, fane, toyo, amaka ]
@@ -72,19 +72,16 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-screen flex px-14 pt-14'>
-            {/* <div className='w-[50%] h-full grid place-items-center'>
-                <button>Next</button>
-            </div> */}
+        <div className='w-full h-screen flex px-14 pt-14 bg-[#F0EEEB]'>   
             <h3 className='text-black-500 text-2xl uppercase'>Our Story</h3>
             <div className='w-full flex flex-col md:flex-row items-center gap-4'>
                 <div className='w-[419px] mx-auto'>
                     <p className='text-xl text-[#0E2132]'>
-                    Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
+                    Join our vibrant community session and access a world of knowledge and growth. Connect with like-minded individuals. Experience transformative learning and collaboration. Build networks, pursue dreams, and thrive together. Don't miss out—join us now!
                     </p>
-                    <button className='flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#1A3753] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
-                        <span>Learn more about ProBar</span>
-                        <img src={arrow} alt="outward-arrow" />
+                    <button className='flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-lilly rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform duration-800'>
+                        <span>Join Our Community Now</span>
+                        <img src={wArrow} alt="outward-arrow" />
                     </button>
                 </div>
                 <div className='w-[50%] h-full relative'>

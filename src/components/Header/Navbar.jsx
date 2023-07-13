@@ -20,7 +20,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className=" lg:gap-[2rem]">
-          <button className="font-g-sans-medium text-[17px] font-medium transition-all py-3 px-2 text-white hover:text-white bg-[#E52D27] hover:bg-transparent border-2 rounded-md border-[#E52D27]">
+          <button className="font-g-sans-medium text-[17px] font-medium transition-all py-3 px-2 text-white hover:text-white bg-[#E52D27] hover:bg-lilly border-2 rounded-md border-[#E52D27]">
             Apply Now
           </button>
         </div>
