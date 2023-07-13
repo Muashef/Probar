@@ -72,10 +72,10 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-screen flex px-14 pt-14 bg-[#F0EEEB]'>   
-            <h3 className='text-black-500 text-2xl uppercase'>Our Story</h3>
-            <div className='w-full flex flex-col md:flex-row items-center gap-4'>
-                <div className='w-[419px] mx-auto'>
+        <div className='w-full h-screen flex px-14 pt-14 bg-[#F0EEEB]'>
+            {/* <h3 className='text-black-500 text-2xl uppercase '>JOIN OUR Community</h3>    */}
+            <div className='w-full h-full flex flex-col md:flex-row items-center justify-between gap-4'>
+                <div className='w-[529px] mx-auto'>
                     <p className='text-xl text-[#0E2132]'>
                     Join our vibrant community session and access a world of knowledge and growth. Connect with like-minded individuals. Experience transformative learning and collaboration. Build networks, pursue dreams, and thrive together. Don't miss out—join us now!
                     </p>
@@ -84,10 +84,10 @@ const Community = () => {
                         <img src={wArrow} alt="outward-arrow" />
                     </button>
                 </div>
-                <div className='w-[50%] h-full relative'>
+                <div className='w-[50%] h-screen relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 

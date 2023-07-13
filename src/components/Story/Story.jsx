@@ -6,13 +6,13 @@ import vid from '../../assets/svg/vid.svg';
 const Story = () => {
   return (
     <div className='w-full h-screen px-14 py-32 mx-auto bg-[#F0EEEB]'>
-        <div>
+        <div className=''>
             <span className='absolute top-[800px] right-10 bg-[#F0EEEB] h-[207px] w-[158px] px-0 z-10'></span>
              <span className='bg-[#EA323F] absolute top-[750px] right-0 h-[207px] w-[158px] px-0 -z-100'></span>
             <h3 className='text-black-500 text-2xl uppercase'>Our Story</h3>
         </div>
-        <div className='w-full flex flex-col md:flex-row items-center gap-4'>
-            <div className='w-[419px] mx-auto'>
+        <div className='w-full flex flex-col md:flex-row items-center gap-4 '>
+            <div className='w-[419px] mx-auto z-10'>
                 <p className='text-xl text-[#0E2132]'>
                 Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
                 </p>

@@ -16,15 +16,15 @@
   }
   
   .nav-item {
-    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif;
     @apply font-medium text-[#D0D6DB] transition-all text-[1.125rem];
   }
   
   .font-g-sans {
-    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif;
   }
   .font-g-sans-medium {
-    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif;
     @apply font-medium;
   }
   
