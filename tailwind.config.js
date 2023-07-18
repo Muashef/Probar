@@ -19,6 +19,8 @@ export default {
           "linear-gradient(90deg, #E52D27, #B31217)",
         conic:
           "linear-gradient(90deg, #ECE9E6, #FFFFFF)",
+        icony:
+          "linear-gradient(90deg, #ECE7E6, #FFFFFF)",
         jelly:
           "linear-gradient(90deg, #1488CC, #2B32B2)",
         bell:

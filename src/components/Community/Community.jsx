@@ -81,13 +81,13 @@ const Community = () => {
                     </p>
                     <button className='flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-lilly rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform duration-800'>
                         <span>Join Our Community Now</span>
-                        <img src={wArrow} alt="outward-arrow" />
+                        <img src={wArrow} className='h-4' alt="outward-arrow" />
                     </button>
                 </div>
                 <div className='w-[50%] h-screen relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg' 
+                        className='w-full h-fit object-cover absolute top-0 left-0 rounded-lg' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
