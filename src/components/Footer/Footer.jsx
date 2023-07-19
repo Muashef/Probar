@@ -9,13 +9,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='w-full h-full px-3 md:px-14 py-12 lg:py-32 bg-[#040A0F]'>
-        <div className='flex flex-col  md:flex-row items-center justify-between'>
+    <div className='w-full h-full px-3 md:px-14 py-8 lg:py-32 bg-[#040A0F]'>
+        <div className='flex flex-col items-start md:flex-row lg:items-center justify-between'>
             <div>
-                <div>
+                <div className='w-[75.75px] lg:w-full mb-5 lg:mb-0'>
                     <img src={logo} alt="probar-logo" />
                 </div>
-                <div className='flex items-center justify-center gap-6 mt-4 lg:mt-8 mx-auto'>
+                <div className='hidden lg:flex items-center justify-center gap-6 mt-4 lg:mt-8 mx-auto'>
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
                             <img className='w-6 lg:w-full' src={twitter} alt="twitter" />
@@ -61,6 +61,27 @@ const Footer = () => {
                         <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Intermediate</p>
                     </div>
                 </div>
+            </div>
+
+            <div className='flex lg:hidden items-center justify-center gap-6 mt-10 lg:mt-8'>
+                    <div className=''>
+                        <a  target='_blank'  href="https://twitter.com/ProBar_Com">
+                            <img className='w-6 lg:w-full' src={twitter} alt="twitter" />
+                        </a>
+                    </div>
+                    <div className=''>
+                        <img className='w-6 lg:w-full' src={whatsapp} alt="whatsapp" />
+                    </div>
+                    <div className=''>
+                        <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
+                            <img className='w-6 lg:w-full' src={ig} alt="instagram" />
+                        </a>
+                    </div>
+                    <div className=''>
+                        <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
+                            <img className='w-6 lg:w-full' src={linkdin} alt="linkedin" />
+                        </a>
+                    </div>
             </div>
         </div>
     </div>
