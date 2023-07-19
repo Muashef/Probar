@@ -7,11 +7,11 @@ import cube from '../../assets/svg/cube.svg';
 
 const Program = () => {
   return (
-    <div className='w-full h-full px-14 pt-52 mx-auto bg-[#F0EEEB]'>
+    <div className='w-full h-full px-3 lg:px-14 pt-8 lg:pt-52  bg-[#F0EEEB]'>
         <div className='relative'>
-            <span className='bg-[#EA323F] absolute top-[-100px] left-[50px] h-[207px] w-[212px] px-0 -z-100'></span>
-            <span className='absolute top-[-50px] left-[-60px] bg-[#1F4264] h-[207px] w-[158px] px-0 -z-100'></span>
-            <h3 className='text-white text-2xl uppercase absolute '>Our Programs</h3>
+            <span className='bg-[#EA323F] absolute top-[-40px] lg:top-[-100px] left-[50px] h-[68px] lg:h-[207px] w-[120px] lg:w-[212px] px-0 -z-100'></span>
+            <span className='absolute top-[-30px] lg:top-[-50px] left-[-60px] bg-[#1F4264] h-[60px] lg:h-[207px] w-[120px] lg:w-[158px] px-0 -z-100'></span>
+            <h3 className='text-white text-base lg:text-2xl uppercase absolute '>Our Programs</h3>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 place-content-center gap-4 mt-10 px-10'>
             <div className='bg-white border border-[#2B34B3] p-5 w-[577px] z-10'>

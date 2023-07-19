@@ -18,7 +18,7 @@ const Cohorts = () => {
                 </p>
             </div>
             <div className='w-full flex gap-10 overflow-x-scroll custom-scrollbar mt-10'>
-                <div className='w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-5'>
+                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-5'>
                     <p className='text-[#AF0001] text-lg mt-2 text-center'>Just Concluded Cohort</p>
                     <div className='mt-3'>
                     <img src={Alpha} alt="" />

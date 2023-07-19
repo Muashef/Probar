@@ -5,18 +5,18 @@ import vid from '../../assets/svg/vid.svg';
 
 const Story = () => {
   return (
-    <div className='w-full h-screen px-6 md:px-14 py-32 mx-auto bg-[#F0EEEB]'>
+    <div className='w-full h-screen px-3 md:px-14 py-10 lg:py-32 mx-auto bg-[#F0EEEB]'>
         <div className=''>
-            <span className='absolute top-[800px] right-10 bg-[#F0EEEB] h-[12.9375rem] w-[9.875rem] px-0 z-10'></span>
-             <span className='bg-[#EA323F] absolute top-[750px] right-0 h-[12.9375rem] w-[6.875rem] px-0 -z-100'></span>
-            <h3 className='text-black-500 text-2xl uppercase mb-4 lg'>Our Story</h3>
+            <span className='absolute top-[510px] lg:top-[850px] right-10 bg-[#F0EEEB] h-[4.3125rem] lg:h-[12.9375rem] w-[9.875rem] px-0 z-10'></span>
+             <span className='bg-[#EA323F] absolute top-[480px] lg:top-[810px] right-0 h-[4.3125rem] lg:h-[12.9375rem] w-[5.25rem] lg:w-[6.875rem] px-0 -z-100'></span>
+            <h3 className='text-black-500 text-base lg:text-2xl uppercase mb-4 lg'>Our Story</h3>
         </div>
         <div className='w-full flex flex-col md:flex-row items-center gap-4 '>
             <div className='w-[300px] md:w-[419px] mx-auto z-10'>
                 <p className='text-sm md:text-xl text-[#0E2132]'>
                 Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
                 </p>
-                <button className='flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                <button className='hidden lg:flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
                     <span>Learn more about ProBar</span>
                     <img src={bArrow } className='h-2' alt="outward-arrow" />
                 </button>
@@ -24,6 +24,10 @@ const Story = () => {
             <div className='z-10'>
                 <img src={vid} alt="" />
             </div>
+            <button className='lg:hidden flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                    <span>Learn more about ProBar</span>
+                    <img src={bArrow } className='h-2' alt="outward-arrow" />
+            </button>
         </div>
     </div>
   )

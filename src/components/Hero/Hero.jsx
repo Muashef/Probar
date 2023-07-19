@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-full'>
         <div className=' flex'>
           <div>
             <img src={woman1} className='object-cover'  alt="" />
