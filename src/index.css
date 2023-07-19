@@ -96,3 +96,11 @@
   .toggle[aria-expanded="true"] .bottom {
     transform: rotate(-45deg);
   }
+
+  
+
+  @media only screen and (max-width: 767.99px) {
+    ::placeholder{
+      font-size: 14px;
+    }
+  }

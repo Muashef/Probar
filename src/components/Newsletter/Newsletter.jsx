@@ -11,7 +11,7 @@ const Newsletter = () => {
 
             <div className='flex mt-8'>
                 <div class="">
-                    <input type="text" id="base-input" class="bg-white border border-[#888C91] text-black-900 text-sm block w-48 md:w-80 p-4 outline-none" placeholder='Enter Email Adress' />
+                    <input type="text" id="base-input" class="bg-white border border-[#888C91] text-black-900 text-sm block w-48 md:w-80 px-2 py-4 lg:p-4 outline-none" placeholder='Enter Email Adress' />
                 </div>
                 <button className='flex items-center gap-2 w-[fit-content] whitespace-nowrap bg-lilly text-white p-3 text-[0.75rem] lg:text-base'>
                     <span>Subscribe Now</span>
