@@ -26,6 +26,9 @@ export default {
         bell:
           "linear-gradient(90deg, #000C40, #607D8B)",
       },
+      spacing: {
+        comm: "calc(100vh - 9.5rem)",
+      },
     },
   },
   plugins: [],

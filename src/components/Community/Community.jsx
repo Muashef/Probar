@@ -72,10 +72,10 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-screen flex flex-col px-6 lg:px-14 pt-8 lg:pt-14 pb-28 bg-[#F0EEEB]'>
+        <div className='w-full h-screen flex flex-col px-5 lg:px-14 pt-8 lg:pt-14 pb-16 bg-[#F0EEEB]'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase mb-5 lg:mb-0'>JOIN OUR Community</h3>   
-            <div className='w-full h-[529px] flex flex-col md:flex-row items-center mx-auto justify-between gap-4'>
-                <div className='w-[343px] lg:w-[529px] mx-auto'>
+            <div className='w-full h-comm flex flex-col md:flex-row items-center mx-auto justify-between gap-4'>
+                <div className='w-full lg:w-[529px] mx-auto'>
                     <p className='text-sm lg:text-xl text-[#0E2132] text-center lg:text-justify'>
                     Join our vibrant community session and access a world of knowledge and growth. Connect with like-minded individuals. Experience transformative learning and collaboration. Build networks, pursue dreams, and thrive together. Don't miss out—join us now!
                     </p>
@@ -84,10 +84,10 @@ const Community = () => {
                         <img src={wArrow} className='h-4' alt="outward-arrow" />
                     </button>
                 </div>
-                <div className='w-[50%] h-full relative'>
+                <div className='w-[50%] h-full border border-red-600 relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-fit object-cover absolute top-0 left-0 rounded-lg' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
