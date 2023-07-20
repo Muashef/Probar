@@ -16,7 +16,7 @@ const Story = () => {
                 <p className='text-sm md:text-xl text-[#0E2132]'>
                 Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
                 </p>
-                <button className='hidden lg:flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                <button className='hidden lg:flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700 whitespace-nowrap'>
                     <span>Learn more about ProBar</span>
                     <img src={bArrow } className='h-2' alt="outward-arrow" />
                 </button>

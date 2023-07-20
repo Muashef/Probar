@@ -31,7 +31,7 @@ const Cohorts = () => {
                         <img src={blueArrow} className='h-2' alt="outward-arrow" />
                     </button>
                 </div>
-                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-5'>
+                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-3'>
                 <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Current Chort</p>
                 <div className='mt-3'>
                 <img src={Gamma} alt="" />
@@ -44,9 +44,9 @@ const Cohorts = () => {
                     <img src={gArrow} className='h-2' alt="outward-arrow" />
                 </button>
                 </div>
-                <div className='w-[300px] lg:w-[500px] bg-conic flex-shrink-0 border-4 border-[#FDFCFC] p-5 '>
+                <div className='w-[300px] lg:w-[500px] bg-conic flex-shrink-0 border-4 border-[#FDFCFC] p-3'>
                 <p className='text-[#000C40] text-[0.75rem] lg:text-lg mt-2 text-center'>Upcoming Cohort</p>
-                <div className='mt-3'>
+                <div className='mt-2'>
                 <img src={upcoming} alt="" />
                 </div>
                 <h2 className='text-black-600 text-base lg:text-[32px] mt-3 lg:leading-[48px]'>Gamma Cohort: Pathway to Becoming an Associate Product Manager in 4 Weeks</h2>
