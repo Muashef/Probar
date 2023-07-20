@@ -10,11 +10,11 @@ import cube from '../../assets/svg/cube.svg';
 const Cohorts = () => {
   return (
     <div className='cohort w-full h-full px-6 lg:px-14 '>
-       <div className='py-8 lg:py-16'>
+       <div className='py-14 lg:py-16'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase'>Our Cohorts</h3>
             <div className='w-[329px] lg:w-[648px] mx-auto text-center mt-3'>
                 <p className='text-sm lg:text-xl text-[#0E2132]'>
-                Equipping you with the necessary skillset to expand your network, earn certifications and become a world-class PM.
+                Equipping you with the necessary skillset to expand your network, earn certifications and become a world-class product manager.
                 </p>
             </div>
             <div className='w-full flex gap-10 overflow-x-scroll custom-scrollbar mt-10'>

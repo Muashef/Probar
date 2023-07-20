@@ -42,7 +42,7 @@ const Program = () => {
                 </div>
                 <h2 className='text-black-600 text-base lg:text-[32px] lg:leading-10 mt-3'>Elevate your Expertise in Product Management in 8 weeks</h2>
                 <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>Students will learn advanced skills and techniques for product development and strategy. The program is designed for professionals who are looking to take their skills to the next level.</p>
-                <button className='flex items-center gap-2 mt-4 w-[fit-content] py-[0.4475rem] px-4 text-[#041043] text-base bg-icony border border-[#041043]-400 font-bold rounded-md md:py-[11px] md:px-3 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                <button className='flex items-center gap-2 mt-4 w-[fit-content] py-[0.4475rem] px-4 text-[#041043] text-base bg-icony border border-[#041043] font-bold rounded-md md:py-[11px] md:px-3 hover:scale-105 hover:text-xl transform transition-all duration-700'>
                     <span>I want more info</span>
                     <img src={gArrow} className='h-2' alt="outward-arrow" />
                 </button>
