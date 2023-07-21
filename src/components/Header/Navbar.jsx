@@ -44,9 +44,11 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden lg:block lg:gap-[2rem]">
-            <button className="font-g-sans-medium w-[fit-content] text-[17px] font-medium transition-all py-3 px-2 text-white hover:text-white bg-[#E52D27] hover:bg-lilly border-2 rounded-md border-[#E52D27]">
-              Apply Now
-            </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
+              <button className="font-g-sans-medium w-[fit-content] text-[17px] font-medium transition-all py-3 px-2 text-white hover:text-white bg-[#E52D27] hover:bg-lilly border-2 rounded-md border-[#E52D27]">
+                Apply Now
+              </button>
+            </a>
           </div>
         </div>
       </nav>
