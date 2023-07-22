@@ -13,7 +13,7 @@ const Hero = () => {
             <img src={woman1} className='object-cover'  alt="" />
           </div>
           <div>
-            <img src={man1} className='object-cover'  alt="" />
+            <img src={man1} className='object-cover border-none'  alt="" />
           </div>
           <div>
             <img src={woman3} className='object-cover '  alt="" />
@@ -22,7 +22,7 @@ const Hero = () => {
 
         <div className='w-full mx-auto py-7 lg:py-3 bg-prey'>
           <h3 className='text-2xl lg:text-5xl text-black mx-auto text-center'>
-            Kickstart Your Tech Career in
+            Kickstart Your Tech Career in <br />
             <span className='text-[#E52D27] ml-2'>Product Management</span>
           </h3>
           <p className='text-[#474A4D] text-[1rem] lg:text-[2rem] text-center leading-[1.675rem] lg:leading-[3.375rem] mt-4 mx-auto w-[20rem] lg:w-[42.875rem]'>

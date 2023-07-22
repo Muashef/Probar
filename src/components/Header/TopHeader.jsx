@@ -15,9 +15,9 @@ const TopHeader = () => {
                 <p className='text-[#15324B] text-[0.75rem] md:text-[18px] whitespace-nowrap'>
                 Join Our Free Upcoming Introductory Class
                 </p>
-                <div>
-                    <a className='text-[0.75rem] md:text-base text-[#15324B] underline whitespace-nowrap' href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>Register now </a>
-                </div>
+                <a className='text-[0.75rem] md:text-base text-[#15324B] underline whitespace-nowrap'         href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
+                    Register now 
+                </a>
             </div>
             
         </div>

@@ -13,7 +13,7 @@ const Program = () => {
             <span className='absolute top-[-30px] lg:top-[-50px] left-[-60px] bg-[#1F4264] h-[60px] lg:h-[207px] w-[120px] lg:w-[158px] px-0 -z-100'></span>
             <h3 className='text-white text-base lg:text-2xl uppercase absolute '>Our Programs</h3>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 place-content-center gap-4 mt-10 px-3 lg:px-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 place-content-center gap-4 md:gap-10 mt-10 px-3 lg:px-10'>
             <div className='bg-white border border-[#2B34B3] p-5 w-[330px] lg:w-[577px] z-10'>
                 <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-jelly font-bold rounded-full md:py-[11px] md:px-6'>
                     <span>Beginner's Certification</span>
