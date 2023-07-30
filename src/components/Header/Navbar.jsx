@@ -1,27 +1,26 @@
 import React, { useState } from 'react';
 import logo from '../../assets/svg/logo.svg';
 
+// const linkArray = ["Our Story", "Cohorts", "Contact Us"]
 
-const linkArray = ["Our Story", "Cohorts", "Contact Us"]
 
-
-// const links = [
-//   {
-//     id: 1,
-//     url: "/#story",
-//     text: "Our Story",
-//   },
-//   {
-//     id: 2,
-//     url: "/#cohorts",
-//     text: "Cohorst",
-//   },
-//   {
-//     id: 3,
-//     url: "#",
-//     text: "Contact Us",
-//   },
-// ];
+const links = [
+  {
+    id: 1,
+    url: "/#story",
+    text: "Our Story",
+  },
+  {
+    id: 2,
+    url: "/#cohorts",
+    text: "Cohorts",
+  },
+  {
+    id: 3,
+    url: "/#contact",
+    text: "Contact Us",
+  },
+];
 
 
 const Navbar = () => {
@@ -37,10 +36,10 @@ const Navbar = () => {
           
 
           <div className="hidden lg:flex items-center gap-5 lg:gap-[2rem]">
-            {linkArray.map((item, index) => (
-              <a href='#' key={index} className="nav-item text-[#D0D6DB] text-[1.125rem]">
-                {item}
-              </a>
+            {links.map((links) => (
+              <a href={links.url} key={links.id} className="nav-item text-[#D0D6DB] text-[1.125rem]">
+              {links.text}
+            </a>
             ))}
           </div>
           <div className="hidden lg:block lg:gap-[2rem]">

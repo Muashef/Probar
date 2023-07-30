@@ -72,7 +72,7 @@ const Community = () => {
 
 
   return (
-        <div className='w-full h-max lg:h-screen flex flex-col px-5 lg:px-14 pt-8 lg:pt-8 bg-[#F0EEEB]'>
+        <div className='w-full h-max lg:h-screen flex flex-col px-5 lg:px-14 pt-8 lg:pt-8 bg-[#F0EEEB]' id='contact'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase mb-5 lg:mb-0'>JOIN OUR Community</h3>   
             <div className='w-full h-max lg:h-comm flex flex-col md:flex-row items-center mx-auto justify-between gap-4'>
                 <div className='w-full lg:w-[529px] mx-auto'>

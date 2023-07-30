@@ -4,8 +4,6 @@ import twitter from '../../assets/svg/twitter.svg';
 import ig from '../../assets/svg/ig.svg';
 import linkdin from '../../assets/svg/linkdin.svg';
 import whatsapp from '../../assets/svg/whatsapp.svg';
-import { Link } from 'react-router-dom';
-
 
 const Footer = () => {
   return (
@@ -19,6 +17,7 @@ const Footer = () => {
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
                             <img className='w-6 lg:w-full' src={twitter} alt="twitter" />
+                            {/* <BsFacebook /> */}
                         </a>
                     </div>
                     <div className=''>
@@ -43,7 +42,6 @@ const Footer = () => {
                     <div className='mt-4 space-y-4'>
                         <p className='text-[#8A98A5] text-sm lg:text-[18px]'>About US</p>
                         <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Testimonials</p>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Partners</p>
                     </div>
                 </div>
                 <div className='whitespace-nowrap'>
