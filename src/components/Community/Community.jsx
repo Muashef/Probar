@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from 'react'
-import maryann from '../../assets/svg/maryann.svg'
-import olu from '../../assets/svg/olu.svg'
-import mariam from '../../assets/svg/mariam.svg'
-import fane from '../../assets/svg/fane.svg'
-import toyo from '../../assets/svg/toyo.svg'
-import amaka from '../../assets/svg/amaka.svg'
+// import maryann from '../../assets/svg/maryann.svg'
+// import olu from '../../assets/svg/olu.svg'
+// import mariam from '../../assets/svg/mariam.svg'
+// import fane from '../../assets/svg/fane.svg'
+// import toyo from '../../assets/svg/toyo.svg'
+// import amaka from '../../assets/svg/amaka.svg'
 import wArrow from '../../assets/svg/wArrow.svg';
+import ImgOne from '../../assets/svg/img1.svg';
+import ImgTwo from '../../assets/svg/img2.svg';
+import ImgThree from '../../assets/svg/img3.svg';
+import ImgFour from '../../assets/svg/img4.svg';
+import Mayan from '../../assets/svg/mayan.svg';
+import { quotesArray, nameArray } from '../../utils/data';
 
 const Community = () => {
-    const images = [ maryann, olu, mariam, fane, toyo, amaka ]
+    const images = [ ImgOne, ImgTwo, ImgThree, ImgFour, Mayan ]
      const [ index, setIndex] = useState(0)
      const [ imgOpacity, setImgOpacity] = useState({0: 100, 1:  0, 2: 0})
-     const nameArray = ['James', 'John', 'Janet']
-     const quotesArray = ['Joining Probar product management beginner’s class was a great decision I made, I was a bit skeptical that I wouldn’t gain the basic knowledge I needed about Product Management but i was surprised at the amazing teaching process, and the amount of knowledge shared within the duration of the lectures. Probar has its unique ways of explaining till you understand plus mentorship opportunity even after you are done with the course and for this I am grateful/happy for the experience. I will highly recommend Probar product management beginner’s class to anyone who is interested in Product Management, the level of knowledge you would gain would Wow you. As long as you choose Probar you are set in the right direction.', 'second', 'third']
+     
 
      const increaseOpacity = (num) => {
         if (num == 1) return 1;
@@ -89,7 +94,7 @@ const Community = () => {
                 <div className='w-full lg:w-[50%] h-[450px] lg:h-full relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg bg-[#B1BBC3] text-center' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
@@ -97,10 +102,10 @@ const Community = () => {
                         style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
                         />
                     } )}
-                    {/* <div className='absolute bottom-0 left-0 z-[4] py-5 px-8 text-xl bg-[#BEBCBC] text-black opacity-50 rounded-md'>
-                        <p>{nameArray[index]}</p>
-                        <span>{quotesArray[index]}</span>
-                    </div> */}
+                    <div className='absolute bottom-0 left-0 z-[4] py-5 px-6 bg-[#BEBCBC] text-black opacity-50 rounded-md'>
+                        <p className='text-[32px] text-black font-bold font-lato mb-8'>{nameArray[index]}</p>
+                        <span className='text-lg font-lato text-black font-semibold'>{quotesArray[index]}</span>
+                    </div>
                 </div>
             </div>
             

@@ -18,7 +18,7 @@ const Cohorts = () => {
                 </p>
             </div>
             <div className='w-full flex items-center justify-center gap-10 overflow-x-scroll custom-scrollbar mt-10'>
-                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-2 lg:p-5'>
+                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-2 lg:p-5' id='previous'>
                     <p className='text-[#AF0001] text-[0.75rem] lg:text-lg mt-2 text-center'>Just Concluded Cohort</p>
                     <div className='mt-3'>
                     <img src={Alpha} alt="" />
@@ -33,7 +33,7 @@ const Cohorts = () => {
                         </button>
                     </a>
                 </div>
-                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-3'>
+                <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-3' id='current'>
                 <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Current Chort</p>
                 <div className='mt-3'>
                 <img src={Gamma} alt="" />

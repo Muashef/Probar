@@ -38,25 +38,29 @@ const Footer = () => {
 
             <div className='grid grid-cols-3 gap-12 lg:gap-28'>
                 <div className='whitespace-nowrap'>
-                    <h3 className='text-white text-sm lg:text-[18px]'>Our Story</h3>
+                    <a href='#story' className='text-white text-sm lg:text-xl font-bold'>Our Story</a>
                     <div className='mt-4 space-y-4'>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>About US</p>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Testimonials</p>
+                        <a href='#contact' className='text-[#8A98A5] text-sm lg:text-[18px]'>Testimonials</a>
                     </div>
                 </div>
                 <div className='whitespace-nowrap'>
-                    <h3 className='text-white text-sm lg:text-[18px]'>Our Cohorts</h3>
+                    <a href='#cohorts' className='text-white text-sm lg:text-xl font-bold'>Our Cohorts</a>
                     <div className='mt-4 space-y-4'>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Previous Cohorts</p>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Current Cohorts</p>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Upcoming Cohorts</p>
+                        <a href='#previous' className='text-[#8A98A5] text-sm lg:text-[18px]'>Previous Cohorts</a>
+                        <div>
+                            <a href='#current' className='text-[#8A98A5] text-sm lg:text-[18px]'>Current Cohorts
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='whitespace-nowrap'>
-                    <h3 className='text-white text-sm lg:text-[18px]'>Our Programs</h3>
+                    <a href='#programs' className='text-white text-sm lg:text-xl font-bold'>Our Programs</a>
                     <div className='mt-4 space-y-4'>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Beginner</p>
-                        <p className='text-[#8A98A5] text-sm lg:text-[18px]'>Intermediate</p>
+                        <a href='#beginner' className='text-[#8A98A5] text-sm lg:text-[18px]'>Beginner</a>
+                        <div>
+                            <a href='#intermediate' className='text-[#8A98A5] text-sm lg:text-[18px]'>Intermediate
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
