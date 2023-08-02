@@ -7,14 +7,16 @@ import React, { useEffect, useState } from 'react'
 // import amaka from '../../assets/svg/amaka.svg'
 import wArrow from '../../assets/svg/wArrow.svg';
 import ImgOne from '../../assets/svg/img1.svg';
-import ImgTwo from '../../assets/svg/img2.svg';
-import ImgThree from '../../assets/svg/img3.svg';
-import ImgFour from '../../assets/svg/img4.svg';
-import Mayan from '../../assets/svg/mayan.svg';
+import ImgTwo from '../../assets/svg/Img_two.svg';
+import ImgThree from '../../assets/svg/img_three.svg';
+import ImgFour from '../../assets/svg/img_four.svg';
+import ImgFive from '../../assets/svg/img5.svg';
+import ImgSix from '../../assets/svg/img6.svg';
+// import Mayan from '../../assets/svg/mayan.svg';
 import { quotesArray, nameArray } from '../../utils/data';
 
 const Community = () => {
-    const images = [ ImgOne, ImgTwo, ImgThree, ImgFour, Mayan ]
+    const images = [ ImgOne, ImgTwo, ImgThree, ImgFour, ImgFive, ImgSix ]
      const [ index, setIndex] = useState(0)
      const [ imgOpacity, setImgOpacity] = useState({0: 100, 1:  0, 2: 0})
      
@@ -39,9 +41,7 @@ const Community = () => {
         setIndex((prevState) => {
             let num = index + 1 > images.length - 1 ? 0 : index + 1
             return num
-        })
-
-       
+        })   
      }
 
      useEffect (() => {
@@ -94,7 +94,7 @@ const Community = () => {
                 <div className='w-full lg:w-[50%] h-[450px] lg:h-full relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg bg-[#B1BBC3] text-center' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg  text-center' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
@@ -102,9 +102,10 @@ const Community = () => {
                         style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
                         />
                     } )}
-                    <div className='absolute bottom-0 left-0 z-[4] py-5 px-6 bg-[#BEBCBC] text-black opacity-50 rounded-md'>
-                        <p className='text-[32px] text-black font-bold font-lato mb-8'>{nameArray[index]}</p>
-                        <span className='text-lg font-lato text-black font-semibold'>{quotesArray[index]}</span>
+                    <div className='absolute bottom-0 left-0 z-[4] py-5 px-6 bg-[#8FA0B1] text-black opacity-50 rounded-t-2xl'>
+                        <p className='text-base lg:text-[32px] text-black font-semibold mb-8 font-lato'>{nameArray[index]}</p>
+                        <h3 className='font-bold text-4xl leading-4 ml-2'>“</h3>
+                        <span className='text-[12px] md:text-lg font-lato text-black font-medium'>{quotesArray[index]}</span>
                     </div>
                 </div>
             </div>

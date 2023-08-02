@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../../assets/svg/logo.svg';
-import twitter from '../../assets/svg/twitter.svg';
-import ig from '../../assets/svg/ig.svg';
-import linkdin from '../../assets/svg/linkdin.svg';
-import whatsapp from '../../assets/svg/whatsapp.svg';
+import twitter from '../../assets/svg/tweet.png';
+import ig from '../../assets/svg/insta.png';
+import linkdin from '../../assets/svg/linkd.png';
+import whatsapp from '../../assets/svg/whats.png';
 
 const Footer = () => {
   return (
@@ -16,21 +16,22 @@ const Footer = () => {
                 <div className='hidden lg:flex items-center justify-center gap-6 mt-4 lg:mt-8 mx-auto'>
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
-                            <img className='w-6 lg:w-full' src={twitter} alt="twitter" />
+                            <img className='w-6 lg:w-12' src={twitter} alt="twitter" />
                             {/* <BsFacebook /> */}
+
                         </a>
                     </div>
                     <div className=''>
-                        <img className='w-6 lg:w-full' src={whatsapp} alt="whatsapp" />
+                        <img className='w-6 lg:w-12' src={whatsapp} alt="whatsapp" />
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
-                            <img className='w-6 lg:w-full' src={ig} alt="instagram" />
+                            <img className='w-6 lg:w-12' src={ig} alt="instagram" />
                         </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
-                            <img className='w-6 lg:w-full' src={linkdin} alt="linkedin" />
+                            <img className='w-6 lg:w-12' src={linkdin} alt="linkedin" />
                         </a>
                     </div>
                 </div>
@@ -68,20 +69,20 @@ const Footer = () => {
             <div className='flex lg:hidden items-center justify-center gap-6 mt-10 lg:mt-8'>
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
-                            <img className='w-6 lg:w-full' src={twitter} alt="twitter" />
+                            <img className='w-6 lg:w-12' src={twitter} alt="twitter" />
                         </a>
                     </div>
                     <div className=''>
-                        <img className='w-6 lg:w-full' src={whatsapp} alt="whatsapp" />
+                        <img className='w-6 lg:w-12' src={whatsapp} alt="whatsapp" />
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
-                            <img className='w-6 lg:w-full' src={ig} alt="instagram" />
+                            <img className='w-6 lg:w-12' src={ig} alt="instagram" />
                         </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
-                            <img className='w-6 lg:w-full' src={linkdin} alt="linkedin" />
+                            <img className='w-6 lg:w-12' src={linkdin} alt="linkedin" />
                         </a>
                     </div>
             </div>
