@@ -22,7 +22,9 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className=''>
-                        <img className='w-6 lg:w-8' src={whatsapp} alt="whatsapp" />
+                        <a href="#">
+                            <img className='w-6 lg:w-8' src={whatsapp} alt="whatsapp" />
+                        </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
@@ -69,20 +71,22 @@ const Footer = () => {
             <div className='flex lg:hidden items-center justify-center gap-6 mt-10 lg:mt-8'>
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
-                            <img className='w-6 lg:w-12' src={twitter} alt="twitter" />
+                            <img className='w-6 lg:w-8' src={twitter} alt="twitter" />
                         </a>
                     </div>
                     <div className=''>
-                        <img className='w-6 lg:w-12' src={whatsapp} alt="whatsapp" />
+                        <a href="#">
+                            <img className='w-6 lg:w-8' src={whatsapp} alt="whatsapp" />
+                        </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
-                            <img className='w-6 lg:w-12' src={ig} alt="instagram" />
+                            <img className='w-6 lg:w-8' src={ig} alt="instagram" />
                         </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
-                            <img className='w-6 lg:w-12' src={linkdin} alt="linkedin" />
+                            <img className='w-6 lg:w-8' src={linkdin} alt="linkedin" />
                         </a>
                     </div>
             </div>
