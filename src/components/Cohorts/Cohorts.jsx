@@ -9,7 +9,7 @@ import cube from '../../assets/svg/cube.svg';
 
 const Cohorts = () => {
   return (
-    <div className='cohort w-full h-full px-6 lg:px-14' id='cohorts'>
+    <div className='cohort w-full h-full px-6 lg:px-14' id='cohorts '>
        <div className='py-14 lg:py-16'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase'>Our Cohorts</h3>
             <div className='w-[329px] lg:w-[648px] mx-auto text-center mt-3'>
@@ -25,16 +25,16 @@ const Cohorts = () => {
                     </div>
                     <h2 className='text-black-600 text-base lg:text-[32px] lg:leading-[48px] mt-3'>Alpha Cohort: Pathway to Becoming an Associate Product Manager in 4 Weeks</h2>
                     <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>Let’s take you from zero knowledge in Product Management to industry ready in 4 weeks with our beginner friendly course. Affordable Price. No prior knowledge in Product Management needed.</p>
-                    <p className='text-lg text-[#040A0F] font-bold mt-2'>Free</p>
+                    {/* <p className='text-lg text-[#040A0F] font-bold mt-2'>Free</p> */}
                     <a href="https://drive.google.com/drive/folders/1IFsVCFCVI4EvOzYYbbTpAXyun3fYCsnV?usp=sharing" target='_blank'>
-                        <button className='flex items-center gap-2 mt-6 w-[fit-content] py-[0.4475rem] px-4 text-[#452F9D] text-base bg-[conic] border border-[#452F9D] font-bold rounded-md md:py-[11px] md:px-3 hover:border-2 hover:border-[#ECE9E6] hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                        <button className='flex items-center gap-2 mt-12 w-[fit-content] py-[0.4475rem] px-4 text-[#452F9D] text-base bg-[conic] border border-[#452F9D] font-bold rounded-md md:py-[11px] md:px-3 hover:border-2 hover:border-[#ECE9E6] hover:scale-105 hover:text-xl transform transition-all duration-700'>
                             <span>See Previous Cohorts</span>
                             <img src={blueArrow} className='h-2' alt="outward-arrow" />
                         </button>
                     </a>
                 </div>
                 <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-3' id='current'>
-                <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Current Chort</p>
+                <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Upcoming Chort</p>
                 <div className='mt-3'>
                 <img src={Gamma} alt="" />
                 </div>

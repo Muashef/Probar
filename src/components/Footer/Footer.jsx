@@ -49,7 +49,7 @@ const Footer = () => {
                     <div className='mt-4 space-y-4'>
                         <a href='#previous' className='text-[#8A98A5] text-sm lg:text-[18px]'>Previous Cohorts</a>
                         <div>
-                            <a href='#current' className='text-[#8A98A5] text-sm lg:text-[18px]'>Current Cohorts
+                            <a href='#current' className='text-[#8A98A5] text-sm lg:text-[18px]'>Upcoming Cohorts
                             </a>
                         </div>
                     </div>

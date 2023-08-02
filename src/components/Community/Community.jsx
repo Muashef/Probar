@@ -1,18 +1,11 @@
 import React, { useEffect, useState } from 'react'
-// import maryann from '../../assets/svg/maryann.svg'
-// import olu from '../../assets/svg/olu.svg'
-// import mariam from '../../assets/svg/mariam.svg'
-// import fane from '../../assets/svg/fane.svg'
-// import toyo from '../../assets/svg/toyo.svg'
-// import amaka from '../../assets/svg/amaka.svg'
 import wArrow from '../../assets/svg/wArrow.svg';
-import ImgOne from '../../assets/svg/img1.svg';
-import ImgTwo from '../../assets/svg/Img_two.svg';
-import ImgThree from '../../assets/svg/img_three.svg';
-import ImgFour from '../../assets/svg/img_four.svg';
+import ImgOne from '../../assets/svg/first.svg';
+import ImgTwo from '../../assets/svg/img_tw.svg';
+import ImgThree from '../../assets/svg/third.svg';
+import ImgFour from '../../assets/svg/fourth.svg';
 import ImgFive from '../../assets/svg/img5.svg';
-import ImgSix from '../../assets/svg/img6.svg';
-// import Mayan from '../../assets/svg/mayan.svg';
+import ImgSix from '../../assets/svg/lst_img.svg';
 import { quotesArray, nameArray } from '../../utils/data';
 
 const Community = () => {
@@ -102,7 +95,7 @@ const Community = () => {
                         style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
                         />
                     } )}
-                    <div className='absolute bottom-0 left-0 z-[4] py-5 px-6 bg-[#8FA0B1] text-black opacity-50 rounded-t-2xl'>
+                    <div className='absolute bottom-0 left-0 z-10 py-3 px-4 bg-[#BEBCBC] text-black opacity-50 rounded-t-3xl leading-4'>
                         <p className='text-base lg:text-[32px] text-black font-semibold mb-8 font-lato'>{nameArray[index]}</p>
                         <h3 className='font-bold text-4xl leading-4 ml-2'>“</h3>
                         <span className='text-[12px] md:text-lg font-lato text-black font-medium'>{quotesArray[index]}</span>

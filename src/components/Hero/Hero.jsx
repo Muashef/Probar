@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className='w-full h-full'>
+    <div className='w-full h-full' id='hero'>
         <div className=' flex'>
           <div>
             <img src={woman1} className='object-cover'  alt="" />
@@ -30,10 +30,12 @@ const Hero = () => {
           to expand your network, earn certifications and become a world-class product manager.
           </p>
           <div className='flex items-center justify-center mt-3'>
-          <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#1A3753] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-500'>
-              <span>View Available Programs</span>
-              <img src={arrow} className='h-2' alt="outward-arrow" />
-            </button>
+          <a href="#programs">
+              <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-[#1A3753] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-500'>
+                <span>View Available Programs</span>
+                <img src={arrow} className='h-2' alt="outward-arrow" />
+              </button>
+            </a>
           </div>
         </div>
     </div>
