@@ -9,7 +9,7 @@ import cube from '../../assets/svg/cube.svg';
 
 const Cohorts = () => {
   return (
-    <div className='cohort w-full h-full px-6 lg:px-14' id='cohorts '>
+    <div className='cohort w-full h-full px-6 lg:px-14' id='cohorts'>
        <div className='py-14 lg:py-16'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase'>Our Cohorts</h3>
             <div className='w-[329px] lg:w-[648px] mx-auto text-center mt-3'>
