@@ -1,9 +1,8 @@
 import React from 'react'
 import logo from '../../assets/svg/logo.svg';
-import twitter from '../../assets/svg/tweet.png';
-import ig from '../../assets/svg/insta.png';
-import linkdin from '../../assets/svg/linkd.png';
-import whatsapp from '../../assets/svg/whats.png';
+import twitter from '../../assets/svg/twitter-sign.png';
+import ig from '../../assets/svg/instagram_sign.png';
+import linkdin from '../../assets/svg/linkedin_sign.png';
 
 const Footer = () => {
   return (
@@ -17,18 +16,11 @@ const Footer = () => {
                     <div className=''>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
                             <img className='w-6 lg:w-8' src={twitter} alt="twitter" />
-                            {/* <BsFacebook /> */}
-
-                        </a>
-                    </div>
-                    <div className=''>
-                        <a href="#">
-                            <img className='w-6 lg:w-8' src={whatsapp} alt="whatsapp" />
                         </a>
                     </div>
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
-                            <img className='w-6 lg:w-8' src={ig} alt="instagram" />
+                            <img className='w-6 lg:w-9' src={ig} alt="instagram" />
                         </a>
                     </div>
                     <div className=''>
@@ -74,11 +66,7 @@ const Footer = () => {
                             <img className='w-6 lg:w-8' src={twitter} alt="twitter" />
                         </a>
                     </div>
-                    <div className=''>
-                        <a href="#">
-                            <img className='w-6 lg:w-8' src={whatsapp} alt="whatsapp" />
-                        </a>
-                    </div>
+
                     <div className=''>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
                             <img className='w-6 lg:w-8' src={ig} alt="instagram" />
@@ -96,3 +84,6 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+
