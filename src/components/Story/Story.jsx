@@ -1,6 +1,6 @@
 import React from 'react'
 import bArrow from '../../assets/svg/bArrow.svg';
-import vid from '../../assets/svg/vid.svg';
+import StoryImg from '../../assets/svg/story_img.svg';
 
 
 const Story = () => {
@@ -24,7 +24,7 @@ const Story = () => {
                 </a>
             </div>
             <div className='z-10'>
-                <img src={vid} alt="" />
+                <img src={StoryImg} alt="" />
             </div>
             <a href="#hero">
                 <button className='lg:hidden flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-3 text-[#040A0F] text-[0.75rem] md:text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700'>
