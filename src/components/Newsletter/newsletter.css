@@ -1,0 +1,11 @@
+.bg-none{
+    background-color: none!important;
+}
+
+#mc_embed_signup{
+    background: none !important;
+}
+
+#mc_embed_signup .helper_text {
+    background-color: none !important;
+}
