@@ -33,7 +33,7 @@ const Newsletter = () => {
                     <div className="indicates-required">
                     </div>
                     <div className="mc-field-group">
-                    <label htmlFor="mce-EMAIL" className='text-base'>Email Address <span className="asterisk">*</span></label>
+                    <label htmlFor="mce-EMAIL" className='text-base text-[#474A4D]'>Email Address <span className="asterisk">*</span></label>
                     <input
                         type="email"
                         name="EMAIL"

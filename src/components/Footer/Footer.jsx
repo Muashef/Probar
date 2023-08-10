@@ -13,17 +13,17 @@ const Footer = () => {
                     <img src={logo} alt="probar-logo" />
                 </div>
                 <div className='hidden lg:flex items-center justify-center gap-6 mt-4 lg:mt-8 mx-auto'>
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
                             <img className='w-6 lg:w-8' src={twitter} alt="twitter" />
                         </a>
                     </div>
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
                             <img className='w-6 lg:w-9' src={ig} alt="instagram" />
                         </a>
                     </div>
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
                             <img className='w-6 lg:w-8' src={linkdin} alt="linkedin" />
                         </a>
@@ -61,18 +61,18 @@ const Footer = () => {
             </div>
 
             <div className='flex lg:hidden items-center justify-center gap-6 mt-10 lg:mt-8'>
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a  target='_blank'  href="https://twitter.com/ProBar_Com">
                             <img className='w-6 lg:w-8' src={twitter} alt="twitter" />
                         </a>
                     </div>
 
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a target='_blank'  href="https://instagram.com/probar_com?igshid=OGQ5ZDc2ODk2ZA==">
                             <img className='w-6 lg:w-8' src={ig} alt="instagram" />
                         </a>
                     </div>
-                    <div className=''>
+                    <div className='hover:scale-125 hover:text-xl transform transition-all duration-500'>
                         <a target='_blank'  href="https://www.linkedin.com/company/probarcommunity/">
                             <img className='w-6 lg:w-8' src={linkdin} alt="linkedin" />
                         </a>
