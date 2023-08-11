@@ -26,7 +26,7 @@ const Cohorts = () => {
                     <h2 className='text-black-600 text-[18px] lg:text-[32px] lg:leading-[48px] mt-3'>Cohort classes completed in 4 weeks</h2>
                     <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>With our beginner’s friendly curriculum and affordable price for classes, we just concluded a wonderful cohort that saw product management enthusiasts with no prior knowledge become associate product managers.</p>
                     <a href="https://drive.google.com/drive/folders/1IFsVCFCVI4EvOzYYbbTpAXyun3fYCsnV?usp=sharing" target='_blank'>
-                        <button className='flex items-center gap-2 mt-10 md:mt-5 w-[fit-content] py-[0.4475rem] px-4 text-[#452F9D] text-base bg-[conic] border border-[#452F9D] font-bold rounded-md md:py-[11px] md:px-3 hover:border-2 hover:border-[#ECE9E6] hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                        <button className='flex items-center gap-2 mt-10 lg:mt-5 w-[fit-content] py-[0.4475rem] px-4 text-[#452F9D] text-base bg-[conic] border border-[#452F9D] font-bold rounded-md md:py-[11px] md:px-3 hover:border-2 hover:border-[#ECE9E6] hover:scale-105 hover:text-xl transform transition-all duration-700'>
                             <span>See Previous Cohorts</span>
                             <img src={blueArrow} className='h-2' alt="outward-arrow" />
                         </button>

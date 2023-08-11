@@ -11,7 +11,7 @@ const Story = () => {
              <span className='bg-[#EA323F] absolute top-[460px] lg:top-[820px] right-0 h-[4.3125rem] lg:h-[12.9375rem] w-[5.25rem] lg:w-[6.875rem] px-0 -z-100'></span>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase mb-4 lg'>Our Story</h3>
         </div>
-        <div className='w-full flex flex-col md:flex-row items-center gap-4 '>
+        <div className='w-full flex flex-col lg:flex-row items-center gap-4 '>
             <div className='w-[300px] md:w-[419px] mx-auto z-10'>
                 <p className='text-sm md:text-xl text-[#0E2132]'>
                 Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.

@@ -4,7 +4,7 @@ import '../Newsletter/newsletter.css';
 
 const Newsletter = () => {
   return (
-    <div className='w-full h-full px-6 md:px-14 py-10 lg:py-20 bg-[#FBF6E4]'>
+    <div className='w-full h-full px-6 md:px-14 py-10 lg:py-20 bg-[#FBF6E4] overflow-x-hidden'>
       <div className='flex flex-col items-center justify-center mx-auto w-[300px] md:w-[615px]'>
         <div id="mc_embed_shell">
           <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />

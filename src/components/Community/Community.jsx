@@ -98,7 +98,7 @@ const Community = () => {
                     <div className='absolute bottom-0 left-0 z-10 py-3 px-4 bg-[#BEBCBC] text-black opacity-50 rounded-t-3xl leading-4'>
                         <p className='text-base lg:text-[32px] text-black font-semibold mb-8 font-lato'>{nameArray[index]}</p>
                         <h3 className='font-bold text-4xl leading-4 ml-2'>“</h3>
-                        <span className='text-[12px] md:text-lg font-lato text-black font-medium'>{quotesArray[index]}</span>
+                        <span className='text-[12px] lg:text-lg font-lato text-black font-medium'>{quotesArray[index]}</span>
                     </div>
                 </div>
             </div>
