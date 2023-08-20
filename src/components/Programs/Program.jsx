@@ -21,7 +21,7 @@ const Program = () => {
                         <img src={strike} alt="" />
                     </button>
                 </a>
-                <p className='text-[#2B33B2] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less that $1 daily</p>
+                <p className='text-[#2B33B2] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less than $1 daily</p>
                 <div className='mt-3'>
                 <img src={success} alt="" />
                 </div>
@@ -42,7 +42,7 @@ const Program = () => {
                         <img src={strike} alt="" />
                     </button>
                 </a>
-                <p className='text-[#000C40] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less that $1 daily</p>
+                <p className='text-[#000C40] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less than $1 daily</p>
                 <div className='mt-3'>
                 <img src={cube} alt="" />
                 </div>
