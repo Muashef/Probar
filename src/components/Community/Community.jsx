@@ -77,7 +77,7 @@ const Community = () => {
                     <p className='text-sm lg:text-xl text-[#0E2132] text-center lg:text-start'>
                     Join our vibrant community session and access a world of knowledge and growth. Connect with like-minded individuals. Experience transformative learning and collaboration. Build networks, pursue dreams, and thrive together. Don't miss out—join us now!
                     </p>
-                    <a href="https://join.slack.com/t/probarcommunity/shared_invite/zt-1zhzb6jf4-twJavZW39_ygXadqP875_g" target='_blank'>
+                    <a href="https://join.slack.com/t/probarcommunity/shared_invite/zt-21fw0whn5-zeSkKzCGskQAEd~FPoP6BA" target='_blank'>
                         <button className='flex items-center mx-auto lg:mx-0 gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-lilly rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform duration-800'>
                             <span>Join Our Community Now</span>
                             <img src={wArrow} className='h-4' alt="outward-arrow" />
