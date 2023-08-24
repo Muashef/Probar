@@ -1,5 +1,4 @@
 import React from 'react';
-import wArrow from '../../assets/svg/wArrow.svg'
 import '../Newsletter/newsletter.css';
 
 const Newsletter = () => {

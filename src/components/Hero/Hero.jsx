@@ -9,13 +9,13 @@ const Hero = () => {
     <div className='w-full h-full mx-auto' id='hero'>
         <div className='w-full flex'>
           <div>
-            <img src={woman1} className='object-cover'  alt="" />
+            <img src={woman1} className='object-cover' alt="" />
           </div>
           <div>
-            <img src={man1} className='object-cover border-none'  alt="" />
+            <img src={man1} className='object-cover border-none' alt="" />
           </div>
           <div>
-            <img src={woman3} className='object-cover'  alt="" />
+            <img src={woman3} className='object-cover' alt="" />
           </div>
         </div>
        
