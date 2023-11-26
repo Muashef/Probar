@@ -13,15 +13,15 @@ const Program = () => {
             <span className='absolute top-[-30px] lg:top-[-50px] left-[-60px] bg-[#1F4264] h-[60px] lg:h-[207px] w-[120px] lg:w-[158px] px-0 -z-100'></span>
             <h3 className='text-white text-base lg:text-2xl uppercase absolute '>Our Programs</h3>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 place-content-center gap-4 md:gap-24 mt-10 px-3 lg:px-10'>
-            <div className='bg-white border border-[#2B34B3] p-5 w-[330px] lg:w-[577px] z-10' id='beginner'>
+        <div className='w-full flex items-center justify-between md:justify-center gap-6 md:gap-10 overflow-x-scroll custom-scrollbar mt-10'>
+            <div className='bg-white border border-[#2B34B3] p-5 w-[310px] lg:w-[577px] z-10 flex-shrink-0' id='beginner'>
                 <a target='_blank' href="https://www.notion.so/ProBar-Available-Programs-7716558c3fe243a2b72fd3894030a050">
                     <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-jelly font-bold rounded-full md:py-[11px] md:px-6'>
                         <span>Beginner's Certification</span>
                         <img src={strike} alt="" />
                     </button>
                 </a>
-                <p className='text-[#2B33B2] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less than $1 daily</p>
+                <p className='text-[#2B33B2] text-[0.75rem] lg:text-lg mt-2 whitespace-nowrap'>Learn an in-demand tech skill with less than $1 daily</p>
                 <div className='mt-3'>
                 <img src={success} alt="" />
                 </div>
@@ -35,14 +35,14 @@ const Program = () => {
                 </a>
             </div>
 
-            <div className='bg-white border border-[#041143] p-5 w-[330px] lg:w-[577px]' id='intermediate'>
+            <div className='bg-white border border-[#041143] p-5 w-[310px] lg:w-[577px] flex-shrink-0' id='intermediate'>
                 <a target='_blank' href="https://www.notion.so/Probar-availabale-programs-f5cd882737c440189fea1861da843932">
                     <button className='flex items-center gap-2 w-[fit-content] py-[0.4475rem] px-4 text-white text-base bg-bell font-bold rounded-full md:py-[11px] md:px-6 whitespace-nowrap'>
                         <span>Intermediate’s Certification</span>
                         <img src={strike} alt="" />
                     </button>
                 </a>
-                <p className='text-[#000C40] text-[0.75rem] lg:text-lg mt-2'>Learn an in-demand tech skill with less than $1 daily</p>
+                <p className='text-[#000C40] text-[0.75rem] lg:text-lg mt-2 whitespace-nowrap'>Learn an in-demand tech skill with less than $1 daily</p>
                 <div className='mt-3'>
                 <img src={cube} alt="" />
                 </div>

@@ -12,9 +12,9 @@ const Cohorts = () => {
     <div className='cohort w-full h-full px-6 lg:px-14' id='cohorts'>
        <div className='py-14 lg:py-16'>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase'>Our Cohorts</h3>
-            <div className='w-[329px] lg:w-[648px] mx-auto text-center mt-3'>
+            <div className='w-[329px] lg:w-[648px] mx-auto text-start md:text-center mt-3'>
                 <p className='text-sm lg:text-xl text-[#0E2132]'>
-                Equipping you with the necessary skillset to expand your network, earn certifications and become a world-class product manager.
+                Equipping you with the necessary skillset <br /> to expand your network, earn certifications and become a world-class product manager.
                 </p>
             </div>
             <div className='w-full flex items-center justify-between md:justify-center gap-6 md:gap-10 overflow-x-scroll custom-scrollbar mt-10'>
@@ -33,19 +33,19 @@ const Cohorts = () => {
                     </a>
                 </div>
                 <div className='w-[300px] lg:w-[500px] flex-shrink-0 bg-conic border-4 border-[#FDFCFC] p-3' id='current'>
-                <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Upcoming Chort</p>
-                <div className='mt-3'>
-                <img src={Gamma} alt="" />
-                </div>
-                <h2 className='text-black-600 text-base lg:text-[30px] mt-3 lg:leading-[48px]'>Pathway to Becoming an Associate Product Manager in 4 Weeks</h2>
-                <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>Let’s take you from zero knowledge in Product Management to industry ready in 4 weeks with our beginner friendly course. Affordable Price. No prior knowledge in Product Management needed.</p>
-                <p className='text-lg text-[#040A0F] font-bold mt-2'>#60,000</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
-                    <button className='flex items-center gap-2 mt-6 w-[fit-content] py-[0.4475rem] px-4 text-[#015967] text-base bg-conic border border-[#015967] font-bold rounded-md md:py-[11px] md:px-3 hover:scale-105 hover:text-xl transform transition-all duration-700'>
-                        <span>I want to register</span>
-                        <img src={gArrow} className='h-2' alt="outward-arrow" />
-                    </button>
-                </a>
+                    <p className='text-[#0A6172] text-[0.75rem] lg:text-lg mt-2 text-center'>Upcoming Chort</p>
+                    <div className='mt-3'>
+                        <img src={Gamma} alt="" />
+                    </div>
+                    <h2 className='text-black-600 text-base lg:text-[30px] mt-3 lg:leading-[48px]'>Pathway to Becoming an Associate Product Manager in 4 Weeks</h2>
+                    <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>Let’s take you from zero knowledge in Product Management to industry ready in 4 weeks with our beginner friendly course. Affordable Price. No prior knowledge in Product Management needed.</p>
+                    <p className='text-lg text-[#040A0F] font-bold mt-2'>#60,000</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
+                        <button className='flex items-center gap-2 mt-6 w-[fit-content] py-[0.4475rem] px-4 text-[#015967] text-base bg-conic border border-[#015967] font-bold rounded-md md:py-[11px] md:px-3 hover:scale-105 hover:text-xl transform transition-all duration-700'>
+                            <span>I want to register</span>
+                            <img src={gArrow} className='h-2' alt="outward-arrow" />
+                        </button>
+                    </a>
                 </div>
             </div>
        </div>

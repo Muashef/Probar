@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import wArrow from '../../assets/svg/wArrow.svg';
-import ImgOne from '../../assets/svg/first.svg';
-import ImgTwo from '../../assets/svg/img_tw.svg';
-import ImgThree from '../../assets/svg/third.svg';
-import ImgFour from '../../assets/svg/fourth.svg';
-import ImgFive from '../../assets/svg/img5.svg';
-import ImgSix from '../../assets/svg/lst_img.svg';
+import ImgOne from '../../assets/svg/anu.svg';
+import ImgTwo from '../../assets/svg/mariam.svg';
+import ImgThree from '../../assets/svg/amaka.svg';
+import ImgFour from '../../assets/svg/ty.svg';
+import ImgFive from '../../assets/svg/mar.svg';
+import ImgSix from '../../assets/svg/olum.svg';
+import ImgSeven from '../../assets/svg/pat.svg';
+import ImgEight from '../../assets/svg/nike.svg';
+import ImgNine from '../../assets/svg/oni.svg';
+import ImgTen from '../../assets/svg/nze.svg';
 import { quotesArray, nameArray } from '../../utils/data';
 
 const Community = () => {
-    const images = [ ImgOne, ImgTwo, ImgThree, ImgFour, ImgFive, ImgSix ]
+    const images = [ ImgOne, ImgTwo, ImgThree, ImgFour, ImgFive, ImgSix, ImgSeven, ImgEight, ImgNine, ImgTen ]
      const [ index, setIndex] = useState(0)
      const [ imgOpacity, setImgOpacity] = useState({0: 100, 1:  0, 2: 0})
      
@@ -86,7 +90,7 @@ const Community = () => {
                 <div className='w-full lg:w-[50%] h-[450px] lg:h-full relative'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg  text-center' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg text-center' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
@@ -94,10 +98,10 @@ const Community = () => {
                         style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
                         />
                     } )}
-                    <div className='absolute bottom-0 left-0 z-10 py-3 px-4 bg-[#BEBCBC] text-black opacity-50 rounded-t-3xl leading-4'>
-                        <p className='text-base lg:text-[32px] text-black font-semibold mb-8 font-lato'>{nameArray[index]}</p>
-                        <h3 className='font-bold text-4xl leading-4 ml-2'>“</h3>
-                        <span className='text-[12px] lg:text-lg font-lato text-black font-medium'>{quotesArray[index]}</span>
+                    <div className='absolute bottom-0 left-0 z-10 py-3 px-4 text-[#F2F2F2] rounded-t-3xl leading-4'>
+                        <p className='text-base lg:text-[32px] text-[#F2F2F2] font-semibold mb-8 font-lato'>{nameArray[index]}</p>
+                        <h3 className='text-[#F2F2F2] font-bold text-base leading-4 ml-2'>“</h3>
+                        <span className='text-xs lg:text-lg font-lato text-[#F2F2F2] font-normal'>{quotesArray[index]}</span>
                     </div>
                 </div>
             </div>

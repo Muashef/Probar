@@ -11,10 +11,10 @@ const Story = () => {
              <span className='bg-[#EA323F] absolute top-[460px] lg:top-[820px] right-0 h-[4.3125rem] lg:h-[12.9375rem] w-[5.25rem] lg:w-[6.875rem] px-0 -z-100'></span>
             <h3 className='text-black-500 text-base lg:text-2xl uppercase mb-4 lg'>Our Story</h3>
         </div>
-        <div className='w-full flex flex-col lg:flex-row items-center gap-4 '>
-            <div className='w-[300px] md:w-[419px] mx-auto z-10'>
-                <p className='text-sm md:text-xl text-[#0E2132]'>
-                Equipping you with the necessary skill set to expand your network, earn certifications and become a world-class PM.
+        <div className='w-full flex flex-col lg:flex-row items-start md:items-center gap-4'>
+            <div className=' md:w-[419px] mx-auto z-10'>
+                <p className='text-sm md:text-xl text-[#0E2132] font-normal'>
+                Equipping you with the necessary skillset to become a world-class PM.
                 </p>
                 <a href="#hero">
                     <button className='hidden lg:flex items-center gap-2 mt-8 w-[fit-content] py-[0.4475rem] px-4 text-[#040A0F] text-base bg-conic border border-[#000000] font-bold rounded-md md:py-[11px] md:px-6 hover:scale-105 hover:text-xl transform transition-all duration-700 whitespace-nowrap'>
