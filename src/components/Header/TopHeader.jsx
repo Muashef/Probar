@@ -7,7 +7,7 @@ const TopHeader = () => {
    
 
   return (
-        <div className='w-full bg-[#ECE9E6] py-2 px-2'>
+        <div className='w-full bg-conic py-2 px-2'>
             <div className='flex items-center justify-center gap-2 md:gap-3 mx-auto'>
                 <button className='flex items-center w-[52.27px] text-[0.75rem] lg:text-base lg:w-[fit-content] gap-1 lg:gap-2 bg-[#040A0F] py-1 px-2 text-white rounded-full'>
                     New
