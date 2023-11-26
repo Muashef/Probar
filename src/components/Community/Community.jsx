@@ -87,15 +87,19 @@ const Community = () => {
                         </button>
                     </a>
                 </div>
-                <div className='w-full lg:w-[50%] h-[450px] lg:h-full relative'>
+                <div className='w-full lg:w-[50%] h-[450px] lg:h-full relative overflow-hidden'>
                     {images.map((item, idx) => {
                         return <img 
-                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg text-center' 
+                        className='w-full h-full object-cover absolute top-0 left-0 rounded-lg text-center transition-transform duration-1000 ease-in-out' 
                         src= {item}
                         key={`img-${idx}`} 
                         id={`img-${idx}`} 
                         alt="" 
-                        style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
+                        // style={{opacity: idx == 0 ? 1 : idx == 1 ? 0 : 0, zIndex:images.length - idx }}
+                        style={{
+                            transform: `translateY(${(idx - index) * 100}%)`,
+                            zIndex: images.length - idx
+                        }}
                         />
                     } )}
                     <div className='absolute bottom-0 left-0 z-10 py-3 px-4 text-[#F2F2F2] rounded-t-3xl leading-4'>
