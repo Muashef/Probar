@@ -11,4 +11,4 @@ export const quotesArray = [
   'ProBar\'s beginner class empowered me with valuable product management knowledge and networking skills. It deepened my understanding of principles, facilitated meaningful connections with professionals, and inspired my goal to become a top product manager in Nigeria.  For those considering a career in product management, my advice is to embrace PROBAR. Even if you doubt your abilities, dive in with enthusiasm. it\’s all about continuous learning and self-development. ProBar transformed my life, boosting my confidence and abilities. It will do the same for you.'
 ]
 
-export const nameArray = [ 'Anuoluwapo Fanegan', 'Mariam Abdulganiyu', 'Amaka Onyejuiwa', 'Oluwatoyosi', 'Maryann Ndedigwe', 'Olumide Adelewa', 'Patricia A. Afuberoh', 'Adenike Sadiq', 'Oniyide Ayomide', 'Nzekwu Chienyem' ] 
+export const nameArray = [ 'Anuoluwapo Fanegan', 'Mariam Abdulganiyu', 'Amaka Onyejuiwa', 'Oluwatoyosi', 'Maryann Ndedigwe', 'Olumide Adelewa', 'Patricia Afuberoh', 'Adenike Sadiq', 'Oniyide Ayomide', 'Nzekwu Chienyem' ] 
