@@ -13,12 +13,10 @@ const TopHeader = () => {
                     New
                     <img src={strike} alt="" />
                 </button>
-                <a className='text-[#15324B] text-[0.75rem] md:text-[18px] whitespace-nowrap'
-                    href='https://tix.africa/events/box_office/manage/probar-firechat-series?view=events' target='_blank'
-                >
+                <p className='text-[#15324B] text-[0.75rem] md:text-[18px] whitespace-nowrap'>
                 Join Our Upcoming Fireside chat
-                </a>
-                <a className='text-[0.75rem] md:text-base text-[#15324B] underline whitespace-nowrap flex items-center gap-1'  href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
+                </p>
+                <a className='text-[0.75rem] md:text-base text-[#15324B] underline whitespace-nowrap flex items-center gap-1'  href="https://tix.africa/events/box_office/manage/probar-firechat-series?view=events" target='_blank'>
                     Register now 
                     <span>
                         <img src={Arrow} alt="Right-arrow" />
