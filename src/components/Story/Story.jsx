@@ -5,7 +5,7 @@ import StoryImg from '../../assets/svg/story_img.svg';
 
 const Story = () => {
   return (
-    <div className='w-full h-max lg:h-screen px-3 md:px-14 py-16 lg:py-32 mx-auto bg-[#F0EEEB]' id='story'>
+    <div className='w-full h-max lg:h-screen px-3 md:px-14 py-16 lg:py-32 mx-auto bg-[#F0EEEB] max-w-[100vw] md:max-w-full' id='story'>
         <div className=''>
             <span className='absolute top-[485px] lg:top-[860px] right-10 bg-[#F0EEEB] h-[4.3125rem] lg:h-[12.9375rem] w-[9.875rem] px-0 z-10'></span>
              <span className='bg-[#EA323F] absolute top-[460px] lg:top-[820px] right-0 h-[4.3125rem] lg:h-[12.9375rem] w-[5.25rem] lg:w-[6.875rem] px-0 -z-100'></span>

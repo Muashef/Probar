@@ -39,7 +39,7 @@ const Cohorts = () => {
                     </div>
                     <h2 className='text-black-600 text-base lg:text-[30px] mt-3 lg:leading-[48px]'>Pathway to Becoming an Associate Product Manager in 4 Weeks</h2>
                     <p className='text-[#474A4D] font-normal text-sm lg:text-xl mt-3'>Let’s take you from zero knowledge in Product Management to industry ready in 4 weeks with our beginner friendly course. Affordable Price. No prior knowledge in Product Management needed.</p>
-                    <p className='text-lg text-[#040A0F] font-bold mt-2'>#65,000</p>
+                    <p className='text-lg text-[#040A0F] font-bold mt-2'>N80,000</p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd96B0KFXYtj5gfW5IlZ7sUXOJippSiHka-34Dtcuqx-R5taQ/viewform?usp=sf_link" target='_blank'>
                         <button className='flex items-center gap-2 mt-6 w-[fit-content] py-[0.4475rem] px-4 text-[#015967] text-base bg-conic border border-[#015967] font-bold rounded-md md:py-[11px] md:px-3 hover:scale-105 hover:text-xl transform transition-all duration-700'>
                             <span>I want to register</span>

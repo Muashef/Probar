@@ -6,8 +6,8 @@ import arrow from '../../assets/svg/arrow.svg';
 
 const Hero = () => {
   return (
-    <div className='w-full h-full mx-auto' id='hero'>
-        <div className='w-full flex'>
+    <div className='w-full h-full mx-auto overflow-hidden' id='hero'>
+        <div className='w-full max-w-[100vw] md:max-w-full flex'>
           <div>
             <img src={woman1} className='object-cover' alt="" />
           </div>
